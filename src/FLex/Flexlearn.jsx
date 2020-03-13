@@ -25,7 +25,8 @@ const Flex1 = () => {
     return (
         <div className={s.main}>
 
-            <div className={s.mainHeader}>
+        
+                  <div className={s.mainHeader}>
 
                 <div className={s.header}>
 
@@ -147,15 +148,12 @@ const Flex1 = () => {
                             </div>
                 </div>
                
-
-
-                    <News />
-                    <Transition
+                <Transition
                         items={toggle}
                         from={{ opacity: 1, width: 0 }}
                         enter={{ opacity: 1, width: 360 }}
                         leave={{ opacity: 1, width: 0 }}
-                        config={{ duration: 300 }}>
+                        config={{ duration: 150 }}>
 
                         {toggle => toggle && (propss =>
                             <div className={s.effectbar} style={propss} >
@@ -166,6 +164,9 @@ const Flex1 = () => {
                                 </div>)}
 
                                 </Transition >
+
+                   <News />
+                    
 
 
 

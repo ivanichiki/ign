@@ -195,16 +195,20 @@ img{
 .effectbar {
     position: fixed;
     background-color: white;
-    height: 680px;
+   min-height: 640px;
    position: relative;
    z-index: 99999;
-   bottom: 600px;
+   float: left;
    border: 1px solid black;
+   display: flex;
+   flex-grow: 1; 
 }
 
 .closebtn {
+   
   position: relative;
-  top: 60px;
-  left: 36%;
+  top: 20px;
+    left: 85%;
+
   font-size: 24px;
 }
