@@ -78,7 +78,7 @@ const News = () => {
                 :
                 <div onMouseLeave={() => removeSize()} onMouseEnter={() => changesize(el.id)}
                     className="imgNews "> <img src={el.img} />
-                    <div className={s.textonImg}> <div className={s.texttext}> {el.text} </div></div> </div>
+                    <div className='textonImg'> <div className='texttext'> {el.text} </div></div> </div>
 
     )
     console.log(hover)
