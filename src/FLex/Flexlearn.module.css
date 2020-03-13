@@ -58,8 +58,13 @@
     }
 }
 
-
-
+.logoheader{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 80px;
+    top: 5px;
+}
 .Header2 img {
     height: 30%;
 }

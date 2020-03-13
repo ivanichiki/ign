@@ -4,6 +4,7 @@ import News from "./news";
 import searcjLogo from '../search-logo-clipart-9.png'
 import ignlogo from '../ign-entertainment-inc-vector-logo.png'
 import {Spring} from "react-spring/renderprops-universal";
+import leftbtn from '../Leftbtn.png'
 const Flex1 = ()=> {
     const [show,setShow] = useState({display:'none'})
     const [effect,setEffect] = useState(false)
@@ -24,10 +25,13 @@ const Flex1 = ()=> {
         <div className={s.main}>
 
                 <div className={s.mainHeader}>
+            
                     <div className={s.header}>
-                        <img  src={ignlogo}/>
+                
+                        <img className={s.logoheader} src={leftbtn} alt=""/>
+                    
                         <div className={s.logo2}>   Россия</div>
-
+                        <img   src={ignlogo}/>
                     </div>
                     <div className={s.Header2}>
                         <button> Вход  </button>
