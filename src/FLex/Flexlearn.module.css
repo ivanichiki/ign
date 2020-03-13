@@ -192,4 +192,18 @@ img{
     font-family: Arial;
 }
 
+.effectbar {
+    position: fixed;
+    background-color: white;
+    height: 600px;
+   position: relative;
+   z-index: 99999;
+   bottom: 600px;
+}
 
+.closebtn {
+  position: relative;
+  top: 60px;
+  left: 36%;
+  font-size: 24px;
+}
