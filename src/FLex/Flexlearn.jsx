@@ -153,7 +153,7 @@ const Flex1 = () => {
                 from={{ opacity: 1, right: 500 }}
                 enter={{ opacity: 1, right: 0 }}
                 leave={{ opacity: 1, right: 500 }}
-                config={{ duration: 150 }}>
+                config={{ duration: 200 }}>
 
                 {toggle => toggle && (propss =>
                     <div className={s.effectbar} style={propss} >
