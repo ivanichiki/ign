@@ -65,7 +65,7 @@
 .textonImg{
 
   bottom: 1px;
-  opacity: 1;
+  opacity: 100%;
   align-self: flex-start;
   position: absolute;
   width: 100%;
@@ -75,7 +75,7 @@
 .texttext{
   position: relative;
   width: 80%;
-  opacity: 1;
+  opacity: 100%;
   color: white;
   margin-left: 10%;
   text-align: left;

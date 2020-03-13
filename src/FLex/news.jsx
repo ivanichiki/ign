@@ -56,7 +56,7 @@ const News = () => {
             >
                 {propss =>
                     <div onMouseLeave={() => removeSize()} className="imgNews "> <img style={propss} src={el.img} />
-                        <div className={s.textonImg}> <div className={s.texttext}> {el.text} </div></div>
+                        <div className={s.textonImg}> <div style={{opacity:1}} className={s.texttext}> {el.text} </div></div>
                     </div>}
 
             </Spring>
@@ -72,13 +72,13 @@ const News = () => {
                     {propss =>
                         <div onMouseLeave={() => removeSize()} onMouseEnter={() => changesize(el.id)}
                             className="imgNews "> <img style={propss} src={el.img} />
-                            <div className={s.textonImg}> <div className={s.texttext}> {el.text} </div></div>
+                            <div className={s.textonImg}> <div style={{opacity:1}} className={s.texttext}> {el.text} </div></div>
                         </div>}
                 </Spring>
                 :
                 <div onMouseLeave={() => removeSize()} onMouseEnter={() => changesize(el.id)}
                     className="imgNews "> <img src={el.img} />
-                    <div className={s.textonImg}> <div className={s.texttext}> {el.text} </div></div> </div>
+                    <div className={s.textonImg}> <div style={{opacity:1}} className={s.texttext}> {el.text} </div></div> </div>
 
     )
     console.log(hover)
