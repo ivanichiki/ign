@@ -197,25 +197,20 @@ img{
 .effectbar {
     
     background-color: white;
-   
+   text-align: start;
     width: 100%;
     position: fixed;
-   z-index: 99999;
-   float: left;
-   display: flex;
+   z-index: 99999; 
+ 
     right: 400px;
-
-
-height:150%;
+    height:150%;
     overflow:auto;  
 }
 
 .closebtn {
-   
   position: fixed;
-  margin-top: 20px;
-
-
+    display: flex;
+ margin-top: 20px;
   font-size: 24px;
 }
 .titlehbar {
@@ -223,16 +218,20 @@ height:150%;
     margin-top: 20px;
     border-bottom: 2px solid silver;
     width: 100%;
-   
-    height: 4%;
+    
+    height: 3.7%;
     margin-left: 20px;
 }
 .titlehbar  span{
  
-    display: flex;
-    flex-wrap: nowrap;
-    margin-right: 60%;
-    font-size: 1.3rem;
-    font-weight: 700;
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 8px;
  
+}
+.titlehbar .span {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 15px;
 }

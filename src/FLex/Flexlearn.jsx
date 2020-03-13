@@ -158,16 +158,26 @@ const Flex1 = () => {
                 {toggle => toggle && (propss =>
                     <div className={s.effectbar} style={propss} >
 
-                        <div className={s.titlehbar}> <span> IGN Russia </span> </div>
                         <Transition
                             items={toggle}
-                            from={{ opacity: 0,marginLeft: '85%' }}
-                            enter={{ opacity: 1,marginLeft: '85%' }}
-                            leave= {{opacity: 0}}
+                            from={{ opacity: 0, marginLeft: '85%' }}
+                            enter={{ opacity: 1, marginLeft: '85%' }}
+                            leave={{ opacity: 0 }}
                             config={{ duration: 550 }}>
 
-                            {toggle => toggle && (propss => <span style={propss} onClick={() => settoggle(!toggle)} className={s.closebtn}> X </span> )}
-                           </Transition >
+                            {toggle => toggle && (propss => <span style={propss} onClick={() => settoggle(!toggle)} className={s.closebtn}> X </span>)}
+                        </Transition >
+
+
+
+
+
+                        <div className={s.titlehbar}> <span className={s.span} > IGN Russia </span> </div>
+                        <div className={s.titlehbar}> <span> PC </span> </div>
+                        <div className={s.titlehbar}> <span> PS4 </span> </div>
+                        <div className={s.titlehbar}> <span> Switch </span> </div>
+                        <div className={s.titlehbar}> <span> Xbox one </span> </div>
+                        <div className={s.titlehbar}> <span> 3DS </span> </div>
 
                     </div>)}
 
