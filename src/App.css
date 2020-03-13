@@ -1,0 +1,64 @@
+.App {
+  font-family: Arial;
+
+  text-align: center;
+}
+.block {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+
+.belownav {
+  background-color: #f5f5f5;
+  height: 60px;
+  box-shadow: 0 0 1px;
+  width: 100%;
+  top: 80px;
+  position: fixed;
+  display: flex;
+  justify-self: center;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+@media (max-width: 1200px) {
+  .belownav  {
+    display: none;
+  }
+}
+
+
+
+
+.belownavnavbarHidden{
+  background-color: black;
+}
+.navbar {
+
+}
+.imgNews{
+  height: 100%;
+
+  width: 23%;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+  align-content: flex-end;
+  position: relative;
+
+
+}
+.imgNews img{
+  width: 100%;
+   transition: transform .5s ease;
+
+  border-radius: 5px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
