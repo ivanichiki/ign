@@ -150,9 +150,9 @@ const Flex1 = () => {
                
                 <Transition
                         items={toggle}
-                        from={{ opacity: 1, width: 0 }}
-                        enter={{ opacity: 1, width: 360 }}
-                        leave={{ opacity: 1, width: 0 }}
+                        from={{ opacity: 1, width: '0%' }}
+                        enter={{ opacity: 1, width: '100%'  }}
+                        leave={{ opacity: 1, width: '0%'}}
                         config={{ duration: 150 }}>
 
                         {toggle => toggle && (propss =>

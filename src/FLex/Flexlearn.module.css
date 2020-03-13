@@ -197,7 +197,8 @@ img{
 .effectbar {
     
     background-color: white;
-   min-height: 680px;
+   
+    width: 100%;
     position: fixed;
    z-index: 99999;
    float: left;
@@ -206,7 +207,7 @@ img{
  
 
 
-    max-height:150%;
+height:150%;
     overflow:auto;  
 }
 
