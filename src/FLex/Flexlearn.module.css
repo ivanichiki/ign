@@ -44,7 +44,7 @@
 @media (max-width: 1200px) {
     .header  {
 
-        margin-left:0%;
+        margin-right: 90px;
 
     }
 }
@@ -58,13 +58,21 @@
     }
 }
 
-.logoheader{
-    width: 30px;
-    height: 30px;
-    position: relative;
-    right: 80px;
-    top: 5px;
+.logoheader {
+    display: none;
 }
+
+
+@media (max-width: 900px) {
+
+.logoheader{
+    display: block;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    right: 65px;
+    top: 1px;
+}}
 .Header2 img {
     height: 30%;
 }
