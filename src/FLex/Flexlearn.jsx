@@ -166,7 +166,7 @@ const Flex1 = () => {
                                 </Transition >
 
                    <News />
-                    
+                   <News />
 
 
 

@@ -1,8 +1,9 @@
 .App {
   font-family: Arial;
-
+  
   text-align: center;
 }
+
 .block {
   width: 200px;
   height: 200px;

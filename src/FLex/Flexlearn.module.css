@@ -6,6 +6,8 @@
     position: fixed;
     z-index: 999;
     background-color: white;
+    flex-grow: 0;
+    
 }
 
 .Header2 {
@@ -193,15 +195,19 @@ img{
 }
 
 .effectbar {
-    position: fixed;
+    
     background-color: white;
    min-height: 640px;
-   position: relative;
+    position: fixed;
    z-index: 99999;
    float: left;
    border: 1px solid black;
    display: flex;
-   flex-grow: 1; 
+ 
+
+
+    max-height:150%;
+    overflow:auto;  
 }
 
 .closebtn {
