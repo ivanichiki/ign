@@ -61,7 +61,7 @@
 .textonImg{
 
     bottom: 1px;
-    color: white;
+   
     align-self: flex-start;
     position: absolute;
     width: 100%;
@@ -71,6 +71,7 @@
 .texttext{
     position: relative;
     width: 80%;
+    color: white;
     margin-left: 10%;
     text-align: left;
     font-size: 1.1rem;
