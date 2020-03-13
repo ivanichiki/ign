@@ -2,7 +2,8 @@
 
     height: 500px;
     position: relative;
-    top: 190px;
+    
+    top: 70px;
     display: flex;
     width: 1230px;
     flex-wrap: wrap;
@@ -11,6 +12,8 @@
     padding-right: 0px;
 }
 .wrap {
+    position: relative;
+    top: 100px;
     display: flex;
     justify-content: center;
 
@@ -18,21 +21,26 @@
 }
 @media screen and (max-width: 500px) {
     .news {
-        width: 1430px;
+        top: 90px;
+        width: 1230px;
         margin-left: 15px;
         margin-right: 15px;
-        padding-right: 20px;
-        top: 100px;
-        height: 580px;
+        padding-right: 30px;
+       
+        height: 480px;
     }
   }
-
-
-@media screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .wrap {
-        height: 100%;
+        top: 20px;
+       
+        
     }
   }
+
+
+
+
 .column {
     flex-wrap: nowrap;
     display: flex;
@@ -62,9 +70,11 @@
     cursor: pointer;
 }
 .mainNews {
+   
+    margin-bottom: 0px;
     width: 100%;
     margin-left: 0;
-    height: 93%;
+    height: 90%;
     display: flex;
     justify-content: space-between;
 }

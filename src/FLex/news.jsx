@@ -111,13 +111,15 @@ const News = () => {
             }
             <div className={s.wrap}>
                
-            <Scrollbars style={{ width: 1300, height: 700 }}>
-
+          
+            <Scrollbars  style={{ width: 1300, height: 570 }}>
                     <div className={s.news } >
+                    
+
                         <div className={s.mainNews}>
                             {newimg}
                         </div>
-
+                
                     </div>
                     </Scrollbars>
             </div>
